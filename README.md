@@ -133,3 +133,28 @@ Inicio->Herramientas Administrativas, Administrador del servidor.
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137606246-f0303ea6-1f99-4320-a4b7-d2707c1a0d18.png)
 
+#### LikeWise Open: instalación y configuración de Active Directory en Linux
+
+Likewise Open es una aplicación MIT que te puede ayudar a la gestión de un AD desde tu distribución GNU/Linux. Likewise simplifica lo necesario para configurar y autenticar una máquina Linux dentro de un dominio Active Directory.
+
+Para instalar el paquete likewise-open 
+
+    sudo apt-get install likewise-open
+    
+En distros Ubuntu más nuevas, utilizar el browser y descargar el paquete DEB:
+
+    http://archive.ubuntu.com/ubuntu/pool/main/l/likewise-open/likewise-open_6.1.0.406-0ubuntu5_amd64.deb
+
+ejecutar el comando
+    
+    sudo dpkg -i likewise-open_6.1.0.406-0ubuntu5_amd64.deb
+
+la configuración para que funcione en la red se procede a ejecutar en el terminal el siguiente comando:
+
+
+    sudo domainjoin-cli join nombre-de-mi-dominio.es Administrador
+
+Sutituir nombre-de-mi-dominio.es por el dominio que estes usando según tu caso y Admnistrador por el nombre de la cuenta de administrador que sea o del usuario que necesitemos.
+
+    
+    
