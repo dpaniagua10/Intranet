@@ -133,6 +133,22 @@ Inicio->Herramientas Administrativas, Administrador del servidor.
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137606246-f0303ea6-1f99-4320-a4b7-d2707c1a0d18.png)
 
+#### Equipo a dominio 
+
+Para agregar la computadora a un dominio, es necesario conocer esta información:
+
+    El nombre de dominio
+    Un nombre de cuenta de usuario que está registrado en el directorio activo asociado con el servidor
+    Versión de Windows Enterprise, Pro o educación
+
+Obtenemos la dirección IP automáticamente, pero asignamos el Servidor DNS preferido de forma manual.
+
+![imagen](https://user-images.githubusercontent.com/38385565/137612406-633d86aa-ccb4-42d3-83d9-9960419253c6.png)
+
+Después de completar los datos, debemos comprobar la conexion para ello abrimos una ventana de comandos y hacemos un ping al Servidor.
+
+También comprobaremos que la configuración DNS del cliente es correcta y que el servidor DNS del controlador de dominio está funcionando adecuadamente.
+
 #### LikeWise Open: instalación y configuración de Active Directory en Linux
 
 Likewise Open es una aplicación MIT que te puede ayudar a la gestión de un AD desde tu distribución GNU/Linux. Likewise simplifica lo necesario para configurar y autenticar una máquina Linux dentro de un dominio Active Directory.
