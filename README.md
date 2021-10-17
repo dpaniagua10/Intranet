@@ -146,7 +146,8 @@ Para agregar la computadora a un dominio, es necesario conocer esta información
 
 Obtenemos la dirección IP automáticamente, pero asignamos el Servidor DNS preferido de forma manual.
 
-![imagen](https://user-images.githubusercontent.com/38385565/137612406-633d86aa-ccb4-42d3-83d9-9960419253c6.png)
+![imagen](https://user-images.githubusercontent.com/38385565/137612770-a7538ee7-078e-4089-a757-217fac67e5e2.png)
+
 
 Después de completar los datos, debemos comprobar la conexion para ello abrimos una ventana de comandos y hacemos un ping al Servidor.
 
