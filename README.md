@@ -15,6 +15,9 @@ OpenVPN es un cliente/servidor VPN (red privada virtual) multiplataforma. Es com
 
 Google Cloud (Nube de Google) es una plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado. 
 
+## VirtualBox
+
+VirtualBox es una aplicación que sirve para hacer máquinas virtuales con instalaciones de sistemas operativos. Esto quiere decir que si tienes un ordenador con Windows, GNU/Linux o incluso macOS, puedes crear una máquina virtual con cualquier otro sistema operativo para utilizarlo dentro del que estés usando.
 
 #### Servicios de dominio de Active Directory Windows Server 2012
 
