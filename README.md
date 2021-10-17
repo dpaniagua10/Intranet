@@ -103,4 +103,33 @@ Introduciremos la contraseña para el nuevo usuario, estableceremos las opciones
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137443266-16965ceb-a813-4242-aea3-b374fa15973a.png)
 
+#### Instalacion de servicio DNS
+
+ya configurada la tarjeta de red, se procede a instalar el servicio DNS
+
+![imagen](https://user-images.githubusercontent.com/38385565/137606167-460568b0-5039-4569-b7d1-f85112e610ee.png)
+
+
+Administrar->Agregar roles y características.
+Pulsamos en siguiente y seleccionamos “Instalación basada en características o en roles”.
+
+rol -> Servidor DNS
+
+![imagen](https://user-images.githubusercontent.com/38385565/137606188-d8364309-24b7-479d-94c8-bf1844f31a7c.png)
+
+
+en la ventana clic en Agregar Características
+
+seleccionamos “Reiniciar automáticamente el servidor de destino en caso necesario”.
+
+![imagen](https://user-images.githubusercontent.com/38385565/137606205-f0babb24-abba-4183-b2a3-5b8f3532c18e.png)
+
+instalar el servicio 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137606213-17112fcf-aebc-4e64-9139-12752175dd68.png)
+
+en panel de administrador
+Inicio->Herramientas Administrativas, Administrador del servidor.
+
+![imagen](https://user-images.githubusercontent.com/38385565/137606246-f0303ea6-1f99-4320-a4b7-d2707c1a0d18.png)
 
