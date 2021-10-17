@@ -157,4 +157,10 @@ la configuración para que funcione en la red se procede a ejecutar en el termin
 Sutituir nombre-de-mi-dominio.es por el dominio que estes usando según tu caso y Admnistrador por el nombre de la cuenta de administrador que sea o del usuario que necesitemos.
 
     
-    
+Ahora, una vez inicias, podrías usar una tty o también hacerlo desde el menú de login que aparece justo durante el arranque del entorno de escritorio. Introducir el nombre o administrador que has configurado anteriormente de este modo:
+
+    nombre_usuario@mi-nombre-de-dominio.es
+ 
+Y también escribirás la contraseña que dicho usuario o administrador tenga dentro del Active Directory. Tras pulsar el botón para inicio de sesión ya estaremos dentro, pudiendo gestionar lo que necesitemos…
+
+
