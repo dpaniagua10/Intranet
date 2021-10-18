@@ -190,27 +190,81 @@ Menu de bienvenida del sistema operativo.
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137670188-aa855cf4-73bc-4722-b9ee-9813b363eeac.png)
 
+seleccionamos la opcion de instalar
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137670926-17088035-2a60-41ab-830d-a7bc52a04835.png)
 
+seleccionar el tipo de teclado que manejaremos con s.o.
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137672080-9d61622a-f4cc-4e3d-86b5-ad8033a49f67.png)
 
-
-
+colocamos nombre para la maquina
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137670945-0b3ecfb7-a43e-4bd4-a218-7802d7a2e2f3.png)
 
-
+configuramos el adaptador de internet
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137672179-5a6d4585-02a5-47a1-bd84-2f0fdbb3c266.png)
 
+configuramos IPv4
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137672201-73281bc2-9783-43e5-addf-6e88959c4e9a.png)
 
-
+para el modo de participacion del disco seleccionamos automatico
 
 ![imagen](https://user-images.githubusercontent.com/38385565/137672306-1dba0511-5b7c-4804-807f-5f5ba8576092.png)
+
+procedemos con la instalacion 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672890-7268c74d-60e0-45ac-b1b6-d70026d2959d.png)
+
+seleccionamos el comportamiento del conjunto de discos duros para la maquina virtual bastara el primero
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672935-bb202bc3-aae0-4d69-8e20-18cd593c1086.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673061-eface36b-0b4c-418a-8aa3-89776daf0e63.png)
+
+establecemos contraseña para usuario root
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673091-f523c7d6-eb73-44f2-9cbf-bb8ce03b83ea.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673141-b6ffb236-c556-4f44-8eb1-0d3ec45a8d55.png)
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673157-5c1e9238-d058-40c4-9459-24b633934839.png)
+
+
+posterior al inicio de sesion ejecutamos los siguiente comandos para instalar gnome 
+
+    freebsd-update install
+
+    pkg install nano
+    
+    pkg install sudo
+    
+  ![imagen](https://user-images.githubusercontent.com/38385565/137673482-c75811ce-4d08-4aad-89a1-b1e8229f8834.png)
+
+    pkg install gnome-desktop gdm xorg gnome3 
+  
+![imagen](https://user-images.githubusercontent.com/38385565/137673509-82fd60db-db3d-4825-ab70-2d90fea4bff9.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673537-14bac301-367c-4af3-a488-28aa01b55c0c.png)
+
+    nano /etc/rc.conf
+
+agregamos estas lineas 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673583-92601ff2-6a44-4120-9fb1-2cdfce53eae2.png)
+
+    nano /etc/fstab
+
+![imagen](https://user-images.githubusercontent.com/38385565/137673598-751bcf96-8e35-4566-9db2-f5d8a9963bfe.png)
+
+
+    reboot
+
+
+
 
 
 
