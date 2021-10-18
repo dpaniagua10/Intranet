@@ -184,3 +184,34 @@ Ahora, una vez inicias, podrías usar una tty o también hacerlo desde el menú 
 Y también escribirás la contraseña que dicho usuario o administrador tenga dentro del Active Directory. Tras pulsar el botón para inicio de sesión ya estaremos dentro, pudiendo gestionar lo que necesitemos…
 
 
+#### Instalacion de FreeBsd 
+
+Menu de bienvenida del sistema operativo.
+
+![imagen](https://user-images.githubusercontent.com/38385565/137670188-aa855cf4-73bc-4722-b9ee-9813b363eeac.png)
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137670926-17088035-2a60-41ab-830d-a7bc52a04835.png)
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672080-9d61622a-f4cc-4e3d-86b5-ad8033a49f67.png)
+
+
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137670945-0b3ecfb7-a43e-4bd4-a218-7802d7a2e2f3.png)
+
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672179-5a6d4585-02a5-47a1-bd84-2f0fdbb3c266.png)
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672201-73281bc2-9783-43e5-addf-6e88959c4e9a.png)
+
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/137672306-1dba0511-5b7c-4804-807f-5f5ba8576092.png)
+
+
+
+
