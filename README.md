@@ -266,6 +266,100 @@ agregamos estas lineas
 
 
 
+### aws
+
+#### servidor openvpn
+
+dentro del menu principal de servicio aws, seleccionamos ec2
+
+![imagen](https://user-images.githubusercontent.com/38385565/137832610-575a9d80-3170-48ba-bcf7-30278c2394be.png)
+
+luego seleccionamos lanzar instancia
+
+![imagen](https://user-images.githubusercontent.com/38385565/137832694-ff7c0b1d-8770-4855-ad44-2c070e14f684.png)
+
+luego elegimos marketplace, luego buscamos openvpn, elegimos la primera opcion que es el servicio gratuito y luego seleccionar
+
+![imagen](https://user-images.githubusercontent.com/38385565/137832805-63841510-f979-412c-b86f-5877dba92a64.png)
+
+luego continuar 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137832913-220dcb09-4ebd-4a49-a876-93033779bf4a.png)
+
+seleccionamos el de la capa gratuida, luego revisar y lanzar
+
+![imagen](https://user-images.githubusercontent.com/38385565/137832964-785b1017-a2b9-4506-8e58-56eccc351cbf.png)
+
+confirmamos lanzar
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833141-2a3ee416-a1a7-4282-804d-37ee8cba2375.png)
+
+en la ventana creamos el nuevo par de claves, le colocamos un nombre y descarga
+
+posterior a esto ya podemos lanzar la instancia
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833215-cf7e6fb6-9687-44ea-9214-6d37e3cc9f85.png)
+
+nos confirmara
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833317-d82e8ba2-0b0f-4e5d-8671-46c28b4eca72.png)
+
+
+para conectar seleccionamos los datos para conexion ssh
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833399-23180cc9-c8df-4cca-9c75-69955aba5936.png)
+
+usando el powershell, utilizamos el comando y el archivo de llaves
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833461-8bbbc5da-05be-4666-b945-a5a5bdafdd24.png)
+
+
+escribimos yes 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833539-6b620d53-7955-4218-a4d1-c1c26602fdfd.png)
+
+
+y en los demas unicamente enter
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833600-df928651-d227-4f1e-a674-073043901197.png)
+
+utilizando el comando 
+
+    sudo passwd openvpn
+
+para cambiar la contraseña 
+
+![imagen](https://user-images.githubusercontent.com/38385565/137833627-2528d4d6-cb00-45f7-9e2d-be38a1a03b2d.png)
+
+en la direccion publica que nos brinda el servidor
+
+    ip_publica:943/admin/
+    
+ ingresamos la contraseña que creamos y la contraseña
+ 
+![imagen](https://user-images.githubusercontent.com/38385565/137833982-f532a0d3-9b46-444d-9d82-74afd7f9c544.png)
+
+seleccionamos configuration -> vpn settings
+colocamos como esta en la imagen para activar el trafico hacia internet por medio de la vpn, guardamos los cambios y reiniciamos el servidor
+
+![imagen](https://user-images.githubusercontent.com/38385565/137834116-e955ce0d-3108-451c-b721-d6ff7dec71f4.png)
+
+en la direccion 
+    
+    ip_publica:943/
+
+usamos el mismo usuario y contraseña para descargar la aplicacion para conectarse como cliente
+
+![imagen](https://user-images.githubusercontent.com/38385565/137834270-30a216b7-5b7d-481c-af93-a1f12f23487a.png)
+
+
+instalamos e iniciamos, este archivo ya trae la configuracion unicamente colocamos usuario y contraseña
+
+![imagen](https://user-images.githubusercontent.com/38385565/137834391-448864e1-02e2-49a3-aff7-679997dbbfee.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/137834427-7e7c8131-fa4b-4f87-9e36-ff0b900d9bdf.png)
+
+
 
 
 
