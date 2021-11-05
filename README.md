@@ -5,10 +5,13 @@
 ###### Daniel Paniagua 7690 17 6640
 
 
-##Contenido##
+**Contenido**
 
 
 1. [Openvpn](#id1)
+2. [Google Cloud](#id2)
+3. [Virtualbox](#id3)
+4. [Openvpn](#id4)
 
 
 
@@ -20,11 +23,11 @@
 OpenVPN es un cliente/servidor VPN (red privada virtual) multiplataforma. Es compatible con sistemas operativos Microsoft Windows, GNU/Linux, macOS e incluso tiene aplicaciones gratuitas para Android y iOS.
 
 
-## Google cloud
+## Google cloud<a name="id2"></a>
 
 Google Cloud (Nube de Google) es una plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado. 
 
-## VirtualBox
+## VirtualBox<a name="id3"></a>
 
 VirtualBox es una aplicación que sirve para hacer máquinas virtuales con instalaciones de sistemas operativos. Esto quiere decir que si tienes un ordenador con Windows, GNU/Linux o incluso macOS, puedes crear una máquina virtual con cualquier otro sistema operativo para utilizarlo dentro del que estés usando.
 
