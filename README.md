@@ -219,6 +219,22 @@ Ahora puede iniciar la VM y acceder a la consola CLI. El nombre de usuario prede
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140584153-7cd2e528-c4b7-464b-b0ff-e014fed00174.png)
 
+De forma predeterminada, todos los adaptadores de red de la máquina virtual están en modo puente, esto significa que una de las interfaces obtendrá una dirección IP de su enrutador (servidor DHCP), que proporciona acceso a Internet a su computadora. Una vez que sepa la dirección IP de Fortigate-VM, puede iniciar sesión en su interfaz web. Si tuvo un error relacionado con la licencia, mencionado anteriormente, verá la siguiente página:
+
+![imagen](https://user-images.githubusercontent.com/38385565/140584829-d822eb9c-0dd2-47ce-a1c5-133bf5ff1dbd.png)
+
+
+Este error tiene algo que ver con la sincronización horaria. La forma más fácil de hacer que funcione es simplemente realizar un restablecimiento de fábrica de Fortigate-VM. El comando se ejecuta el restablecimiento de fábrica .
+
+![imagen](https://user-images.githubusercontent.com/38385565/140584852-28a02a1b-b435-4c5a-8e0b-bcf9da4f94ce.png)
+
+Después del proceso de restablecimiento, deberá volver a iniciar sesión con las credenciales predeterminadas ( administrador y contraseña en blanco). Proporcione la nueva contraseña y busque la dirección IP de la interfaz como se describió anteriormente. Ahora podrá acceder a la GUI y comenzar a configurar el dispositivo.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140585170-4c8d3b7e-f534-4518-a8e4-ced5c12009d1.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/140585179-245d2801-3a72-431e-82fe-a6b45cfc36ef.png)
+
+
 
 #### Instalacion de FreeBsd<a name="id7"></a> 
 
