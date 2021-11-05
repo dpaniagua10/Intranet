@@ -11,7 +11,7 @@
 1. [Openvpn](#id1)
 2. [Google Cloud](#id2)
 3. [Virtualbox](#id3)
-4. [Openvpn](#id4)
+4. [VMware Workstation Player](#id4)
 
 
 
@@ -30,6 +30,10 @@ Google Cloud (Nube de Google) es una plataforma que ha reunido todas las aplicac
 ## VirtualBox<a name="id3"></a>
 
 VirtualBox es una aplicación que sirve para hacer máquinas virtuales con instalaciones de sistemas operativos. Esto quiere decir que si tienes un ordenador con Windows, GNU/Linux o incluso macOS, puedes crear una máquina virtual con cualquier otro sistema operativo para utilizarlo dentro del que estés usando.
+
+## VMware Workstation Player<a name="id4"></a>
+
+(antes conocido como Player Pro) es una aplicación para la virtualización de escritorios que está disponible de forma gratuita para uso personal. Es una herramienta ideal para ejecutar una máquina virtual en un PC con Windows o Linux. 
 
 #### Servicios de dominio de Active Directory Windows Server 2012
 
