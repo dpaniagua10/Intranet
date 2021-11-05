@@ -1,5 +1,5 @@
 # Intranet
-**Proyecto II** 
+**Proyecto Final** 
 
 ###### Mario Field     7690 17 20612
 ###### Daniel Paniagua 7690 17 6640
@@ -12,6 +12,9 @@
 2. [Google Cloud](#id2)
 3. [Virtualbox](#id3)
 4. [VMware Workstation Player](#id4)
+5. [Servicios de dominio de Active Directory Windows Server 2012](#id5)
+6. [Firewall Fortigate Maquina Virtual](#id6)
+7. [Instalacion de FreeBSD](#id7)
 
 
 
@@ -35,7 +38,7 @@ VirtualBox es una aplicación que sirve para hacer máquinas virtuales con insta
 
 (antes conocido como Player Pro) es una aplicación para la virtualización de escritorios que está disponible de forma gratuita para uso personal. Es una herramienta ideal para ejecutar una máquina virtual en un PC con Windows o Linux. 
 
-#### Servicios de dominio de Active Directory Windows Server 2012
+#### Servicios de dominio de Active Directory Windows Server 2012<a name="id5"></a>
 
 1.	El servidor W2012 debe disponer de una dirección IP fija (estática) y no establecida por DHCP.
 2.	Para instalar el rol o característica de Servicios de dominio de Active Directory el servidor W2012 requerirá del rol «Servidor DNS» instalado. Para instalarlo (si aún no lo hemos hecho) pulsaremos la tecla «Windows» del teclado o la combinación de teclas Control + Escape, en el menú de Inicio metro pulsaremos en «Administrador del servidor»:
@@ -200,7 +203,9 @@ Ahora, una vez inicias, podrías usar una tty o también hacerlo desde el menú 
 Y también escribirás la contraseña que dicho usuario o administrador tenga dentro del Active Directory. Tras pulsar el botón para inicio de sesión ya estaremos dentro, pudiendo gestionar lo que necesitemos…
 
 
-#### Instalacion de FreeBsd 
+#### Firewall Fortigate Maquina Virtual<a name="id6"></a>
+
+#### Instalacion de FreeBsd<a name="id7"></a> 
 
 Menu de bienvenida del sistema operativo.
 
