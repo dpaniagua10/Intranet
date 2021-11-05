@@ -205,6 +205,21 @@ Y también escribirás la contraseña que dicho usuario o administrador tenga de
 
 #### Firewall Fortigate Maquina Virtual<a name="id6"></a>
 
+Fortinet nos permite descargar y utilizar la máquina virtual de forma gratuita durante dos semanas . Significa que no tiene que comprar nada para probar algunas funciones en su VM.
+
+Lo primero que debe hacer es ir a support.fortinet.com y crear una cuenta gratuita.
+
+Extraiga el archivo descargado y haga doble clic en el archivo de la máquina virtual.
+
+Esto abrirá la ventana Importar máquina virtual donde deberá especificar la ubicación de la nueva máquina virtual:
+
+![imagen](https://user-images.githubusercontent.com/38385565/140584107-4dcd14f6-0702-4a78-adf2-0519110b8f25.png)
+
+Ahora puede iniciar la VM y acceder a la consola CLI. El nombre de usuario predeterminado es admin y la contraseña está en blanco. En el primer inicio de sesión, se le pedirá que establezca la nueva contraseña. A continuación se muestra la captura de pantalla con el proceso de inicio de sesión inicial.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140584153-7cd2e528-c4b7-464b-b0ff-e014fed00174.png)
+
+
 #### Instalacion de FreeBsd<a name="id7"></a> 
 
 Menu de bienvenida del sistema operativo.
