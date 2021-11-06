@@ -162,6 +162,10 @@ Inicio->Herramientas Administrativas, Administrador del servidor.
 Para agregar la computadora a un dominio, es necesario conocer esta información:
 
     El nombre de dominio
+
+
+
+
     Un nombre de cuenta de usuario que está registrado en el directorio activo asociado con el servidor
     Versión de Windows Enterprise, Pro o educación
 
@@ -235,6 +239,12 @@ Después del proceso de restablecimiento, deberá volver a iniciar sesión con l
 
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140585179-245d2801-3a72-431e-82fe-a6b45cfc36ef.png)
+
+#### Topologia de Red
+
+![imagen](https://user-images.githubusercontent.com/38385565/140599214-35f962aa-1751-4672-9a99-bb45c0ace5a0.png)
+
+
 
 #### Politicas Firewall<a name="id7"></a>
 
@@ -506,5 +516,9 @@ instalamos e iniciamos, este archivo ya trae la configuracion unicamente colocam
 
 
 
+### Analisis de Riesgos
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/140599158-21765cbb-4f07-4cc0-bdcc-b1a2f1f1a490.png)
 
 
