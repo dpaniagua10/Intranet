@@ -309,6 +309,9 @@ Por politicas de seguridad la RED lan no debe de compartir todos los recursos co
 ![imagen](https://user-images.githubusercontent.com/38385565/140598826-16fa46f6-4789-45cd-a39b-73e7292c4960.png)
 
 
+![imagen](https://user-images.githubusercontent.com/38385565/140599081-c74c7b45-0a56-46ab-8d15-0253ad9dbf7b.png)
+
+
 ##### monitorio de red
 
 Una de las muchas bondades de un firewall perimetral es la reporteria, por medio de esta nosotros podemos verificar tanto como vitalidad y accesos de los usuarios, en nuestro firewall configuramos un dashboard el cual utilizaremos para verificar el estado de las interfaces y el estado del firewall, monitoreando su performance como cpu, memoria ram y throughput de las interfaces configuradas.
@@ -408,7 +411,7 @@ agregamos estas lineas
 
 
 
-### aws<a name="id8"></a>
+### aws<a name="id9"></a>
 
 #### servidor openvpn
 
