@@ -14,8 +14,9 @@
 4. [VMware Workstation Player](#id4)
 5. [Servicios de dominio de Active Directory Windows Server 2012](#id5)
 6. [Firewall Fortigate Maquina Virtual](#id6)
-7. [Instalacion de FreeBSD](#id7)
-8. [AWS](#id8)
+7. [Politicas Firewall](#id7)
+8. [Instalacion de FreeBSD](#id8)
+9. [AWS](#id9)
 
 
 
@@ -231,15 +232,17 @@ Este error tiene algo que ver con la sincronización horaria. La forma más fác
 
 Después del proceso de restablecimiento, deberá volver a iniciar sesión con las credenciales predeterminadas ( administrador y contraseña en blanco). Proporcione la nueva contraseña y busque la dirección IP de la interfaz como se describió anteriormente. Ahora podrá acceder a la GUI y comenzar a configurar el dispositivo.
 
-![imagen](https://user-images.githubusercontent.com/38385565/140585170-4c8d3b7e-f534-4518-a8e4-ced5c12009d1.png)
+
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140585179-245d2801-3a72-431e-82fe-a6b45cfc36ef.png)
 
-#### Politicas Firewall
+#### Politicas Firewall<a name="id7"></a>
 
+###### ruta estatica para navegacion de firewall y red lan
 
+se debe de configurar un gateway por el cual nuestro firewall perimitral tendra acceso a internet por medio de este a traves de politica brindaremos navegacion y acceso de red a los equipos conectados a la red Lan y DMZ.
 
-
+![imagen](https://user-images.githubusercontent.com/38385565/140585170-4c8d3b7e-f534-4518-a8e4-ced5c12009d1.png)
 
 Dashboard 
 
@@ -250,7 +253,7 @@ monitorio de red
 
 
 
-#### Instalacion de FreeBsd<a name="id7"></a> 
+#### Instalacion de FreeBsd<a name="id8"></a> 
 
 Menu de bienvenida del sistema operativo.
 
