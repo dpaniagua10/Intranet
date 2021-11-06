@@ -17,6 +17,7 @@
 7. [Politicas Firewall](#id7)
 8. [Instalacion de FreeBSD](#id8)
 9. [AWS](#id9)
+10. [Analisis de Riesgos(#id10)
 
 
 
@@ -516,9 +517,13 @@ instalamos e iniciamos, este archivo ya trae la configuracion unicamente colocam
 
 
 
-### Analisis de Riesgos
+### Analisis de Riesgos<a name="id10"></a>
 
+diagrama general de amenezas 
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140599158-21765cbb-4f07-4cc0-bdcc-b1a2f1f1a490.png)
 
 
+listado de amenezas que pueden afectar el buen funcionamiento de la red corporativa
+
+![imagen](https://user-images.githubusercontent.com/38385565/140599336-c1b44171-da41-4af8-bcf0-d67d06bde984.png)
