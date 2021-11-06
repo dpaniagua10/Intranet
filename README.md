@@ -238,17 +238,90 @@ Después del proceso de restablecimiento, deberá volver a iniciar sesión con l
 
 #### Politicas Firewall<a name="id7"></a>
 
-###### ruta estatica para navegacion de firewall y red lan
+##### ruta estatica para navegacion de firewall y red lan
 
 se debe de configurar un gateway por el cual nuestro firewall perimitral tendra acceso a internet por medio de este a traves de politica brindaremos navegacion y acceso de red a los equipos conectados a la red Lan y DMZ.
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140585170-4c8d3b7e-f534-4518-a8e4-ced5c12009d1.png)
 
-Dashboard 
 
-monitorio de red
+##### configuracion de interfases 
+
+
+###### interfas WAN
+
+se configuro la interfas Wan en el puerto 1 de nuestro firewall asignando una IP de nuestro segmento del router de casa, esto para utilizar el router de casa como puerta de salida del firewall.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140597966-0836fddf-2b8e-4465-ad13-1f669c98f244.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598212-52911699-1bc6-4da5-8211-4300a273a8cd.png)
+
+
+###### interfas LAN 
+
+se configuro el puerto 2 de nuestro firewall como segmente LAN asignando la red 192.168.44.0/24 para los equipos windows server y windows endpoint los cuales pertenecen a nuestro segmente de red interna.
+
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598083-7adacae0-0d75-4c40-830b-8658e4408aa8.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598125-51c123a8-7072-40ff-840b-7864ceb076d1.png)
+
+
+###### Interfas DMZ
+
+se configuro el puerto 3 de nuestro firewall como segmente DMZ asignando la red 10.10.10.0/24 para los equipos Linux en los cuales se encuentran servicios criticos tales como base de datos y servidores FTP. Esta zona se encuentra aislada de la RED LAN y para acceder a ella se deben de solicitar permisos al administrador del FW para que cree politicas de acceso, indicando que equipos se van a conectar y protocolos a utilizar.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598403-cc47eec1-c449-4f8a-a06a-d8c519dc16ce.png)
+
+
+##### Creacion de objetos
+
+Según buenas practicas en equipos como firewall perimetral es recomendado crear objetos especificos para brindar accesos a los equipos a los diferentes destinos.
+Se crearon objetos como RED LAN, Servidor Ubuntu, RED DMZ entre otros.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598508-60acfb58-813f-4d9a-869c-c1f57a79f957.png)
+
+
+##### Creacion politicas de acceso 
+
+
+##### Creacion politicas de acceso RED LAN
+
+Se configuraron politicas de acceso a internet para los equipos conectados a la RED LAN, para esto fue necesario especificar las interfaces de entrada y salida así como que dispositivos tienen permisos y cuales no, en este tipo de reglas se pueden aplicar politicas de seguridad como perfiles UTM, en el cual se pueden configurar servicios y aplicaciones ya sea que se necesiten permitir o bloquear, en nuestro caso no fue posible activar este tipo de seguridad por temas de licenciamiento.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598562-11384857-6a40-453e-a491-f5928571caef.png)
+
+
+##### Creacion politicas de acceso RED DMZ
+
+Se configuraron politicas de acceso a internet para los equipos conectados a la RED DMZ, para esto fue necesario especificar las interfaces de entrada y salida así como que dispositivos tienen permisos y cuales no, esta politica se creó más cerrada por motivos de los servicios que se encuentran en la misma, cabe mencionar que esta zona no tiene acceso full a la zona LAN esto por motivos de seguridad.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598633-ad88fbd2-4146-4fe1-be7e-564d81d1e98f.png)
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598891-87f9ee8d-9ac9-4059-9f76-8647ca7ed5ad.png)
+
+
+
+##### Comunicación red LAN con DMZ 
+
+Por politicas de seguridad la RED lan no debe de compartir todos los recursos con la RED DMZ, esto para evitar cualquier tipo de fuga de información o infección que se pueda dar en cualquier red, el firewall tiene como funcion brindar accesos o denegar permisos a los usuarios, para nuestro proyecto se creó una politica para comunicación entre RED LAN y DMZ únicamente permitiendo el servicio de mysql y ICMP, esto para mitigar cualquier riesgo o vulnerabilidad que utilize puertos inusuales.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598826-16fa46f6-4789-45cd-a39b-73e7292c4960.png)
+
+
+##### monitorio de red
+
+Una de las muchas bondades de un firewall perimetral es la reporteria, por medio de esta nosotros podemos verificar tanto como vitalidad y accesos de los usuarios, en nuestro firewall configuramos un dashboard el cual utilizaremos para verificar el estado de las interfaces y el estado del firewall, monitoreando su performance como cpu, memoria ram y throughput de las interfaces configuradas.
+
+![imagen](https://user-images.githubusercontent.com/38385565/140598962-45b068e4-2cde-4e0c-9dc4-6034fe0c7740.png)
+
+
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140597640-ce538130-22f7-4e0d-8ee1-cebe06090c72.png)
+
+##### monitorio de trafico por equipo
+
+![imagen](https://user-images.githubusercontent.com/38385565/140599015-14466306-ab76-4ce8-87b2-a52097d5c881.png)
 
 
 
