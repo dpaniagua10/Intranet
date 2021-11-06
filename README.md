@@ -17,7 +17,7 @@
 7. [Politicas Firewall](#id7)
 8. [Instalacion de FreeBSD](#id8)
 9. [AWS](#id9)
-10. [Analisis de Riesgos(#id10)
+10. [Analisis de Riesgos](#id10)
 
 
 
