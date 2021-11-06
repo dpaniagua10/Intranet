@@ -235,6 +235,19 @@ Después del proceso de restablecimiento, deberá volver a iniciar sesión con l
 
 ![imagen](https://user-images.githubusercontent.com/38385565/140585179-245d2801-3a72-431e-82fe-a6b45cfc36ef.png)
 
+#### Politicas Firewall
+
+
+
+
+
+Dashboard 
+
+monitorio de red
+
+![imagen](https://user-images.githubusercontent.com/38385565/140597640-ce538130-22f7-4e0d-8ee1-cebe06090c72.png)
+
+
 
 
 #### Instalacion de FreeBsd<a name="id7"></a> 
